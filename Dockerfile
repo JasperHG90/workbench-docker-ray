@@ -1,4 +1,5 @@
-FROM rayproject/ray:latest-py38-cpu
+#rayproject/ray:latest-py38-cpu
+FROM rayproject/ray:1.12.1-py38-cpu
 RUN sudo apt-get update
 RUN sudo apt-get install -y default-jre
 RUN mkdir ~/jars
